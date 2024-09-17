@@ -101,9 +101,9 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
+	color: #fff; /* Couleur de texte blanc pour un meilleur contraste */
+    background-color: #6E601B; /* Couleur d'arrière-plan plus foncée pour améliorer le contraste */
+    border-radius: 0;
 }
 .nav-pills .nav-link {
 	color: #000
