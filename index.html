@@ -96,7 +96,13 @@
 
         <section id="about">
             <div class="picture left">
-                <img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci">
+                <img 
+  src="./assets/images/nina.webp" 
+  alt="Portrait de Nina Carducci" 
+  loading="lazy"
+  srcset="./assets/images/nina-small.webp 600w, 
+          ./assets/images/nina-large.webp 1200w" 
+  sizes="(max-width: 600px) 600px, 1200px">
             </div>
             <div id="about-me">
                 <h2 class="about-me__title">À propos de moi</h2>
